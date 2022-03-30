@@ -38,6 +38,7 @@ function workloop(deadline) {
 
   if (!nextFiberReconcileWork) {
     commitRoot();
+    return;
   }
 
   // do xxx
@@ -55,6 +56,7 @@ function render(element, container) {
       children: [element],
     },
   };
+  console.log(wipRoot)
 
   nextFiberReconcileWork = wipRoot;
 }

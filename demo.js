@@ -10,7 +10,7 @@ const jsx = (
       style={{ background: "blue", color: "pink" }}
       onClick={() => alert(2)}
     >
-      aa
+      aaa
     </li>
     <li className="item">
       {data.item1}
